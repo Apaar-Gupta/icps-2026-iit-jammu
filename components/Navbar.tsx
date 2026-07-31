@@ -21,7 +21,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop nav */}
-        <ul className="hidden md:flex items-center gap-1">
+        <ul className="hidden md:flex items-center gap-7">
           {navMenu.map((item) => (
             <li key={item.label} className="relative group">
               {item.dropdown ? (

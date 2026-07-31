@@ -27,23 +27,26 @@ export const navMenu: NavItem[] = [
   {
     label: "About",
     dropdown: [
-      { label: "About ICPS 2026", href: "/#about" },
-      { label: "Organizing Committee", href: "/committee" },
+      { label: "Venue", href: "/venue" },
+      { label: "Conference Committee", href: "/conference_committee" },
+      { label: "Contact Us", href: "/contact_us" },
     ],
   },
   {
     label: "For Authors",
     dropdown: [
-      { label: "Call for Papers", href: "/docs/CFP-ICPS-2026.pdf" },
-      { label: "Submission Guidelines", href: "/submission" },
-      { label: "Camera Ready", href: "/camera-ready" },
+      { label: "Call for Papers", href: "/call_for_papers" },
+      { label: "Paper Submission", href: "/paper_submission" },
+      { label: "Conference Tracks", href: "/conference_tracks" },
+      { label: "Camera Ready papers", href: "/camera_ready_papers" },
+      { label: "Presentation Guidelines", href: "/presentation_guidelines" },
     ],
   },
   {
     label: "Program",
     dropdown: [
-      { label: "Technical Program", href: "/tech-program" },
-      { label: "Keynote Speakers", href: "/tech-program#keynotes" },
+      { label: "Technical Program", href: "/tech_program" },
+      { label: "Keynote Speakers and Tutorials", href: "/speakers" },
     ],
   },
   { label: "Registration", href: "/registration" },

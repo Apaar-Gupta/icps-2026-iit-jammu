@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-navy-900 font-body;
+}
+
+::selection {
+  @apply bg-saffron-400 text-white;
+}
+
+/* Playfair Display defaults to old-style figures, where digits like 6/8
+   have taller ascenders than 0/2/3 — makes years like "2026" look uneven.
+   Force lining (uniform-height) numerals wherever the display font is used. */
+.font-display {
+  font-variant-numeric: lining-nums;
+}
+
+/* section eyebrow / label style used across the page */
+.eyebrow {
+  @apply text-xs font-semibold tracking-[0.25em] uppercase text-saffron-600;
+}
+
+.section-heading {
+  @apply font-display text-3xl md:text-4xl font-bold text-navy-900;
+  font-variant-numeric: lining-nums;
+}
+
+.divider-rule {
+  @apply w-16 h-[3px] bg-saffron-500 rounded-full;
+}
+
+/* continuous left-scrolling announcement strip (used by TopStrip) */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 4s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

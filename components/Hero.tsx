@@ -10,7 +10,7 @@ export default function Hero() {
         alt="ICPS 2026 background"
         fill
         priority
-        className="object-cover object-center z-0"
+        className="object-cover object-center z-10 opacity-50"
       />
 
       {/* dark overlay so the text stays readable over the photo */}

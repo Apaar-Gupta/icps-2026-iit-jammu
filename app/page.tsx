@@ -6,13 +6,12 @@ import ImportantDates from "@/components/ImportantDates";
 import Updates from "@/components/Updates";
 import Organizers from "@/components/Organizers";
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+
 
 export default function Home() {
   return (
     <main>
-      <Navbar/>
-      <TopStrip />
+      <TopStrip/>
       <Hero />
       <About />
       <Sponsors />

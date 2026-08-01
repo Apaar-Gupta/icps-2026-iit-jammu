@@ -6,11 +6,11 @@ export default function Hero() {
     <header className="relative overflow-hidden text-cream min-h-[560px] md:min-h-[640px] flex items-center">
       {/* full-bleed background image */}
       <Image
-        src="/images/ICPSLogo.png"
+        src="/images/ICPS.png"
         alt="ICPS 2026 background"
         fill
         priority
-        className="object-cover object-center z-10 opacity-50"
+        className="object-cover object-center z-10 opacity-45"
       />
 
       {/* dark overlay so the text stays readable over the photo */}

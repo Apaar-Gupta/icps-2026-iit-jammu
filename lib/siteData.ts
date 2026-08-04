@@ -57,7 +57,7 @@ export const navMenu: NavItem[] = [
 // CTA buttons shown inside the Hero section (unrelated to the navbar above).
 export const navLinks = [
   { label: "Call for Papers", href: "/docs/CFP-ICPS-2026.pdf" },
-  { label: "Submit Paper", href: "/submission" },
+  { label: "Submit Paper", href: "/paper_submission" },
 ];
 
 export const topStrip = {

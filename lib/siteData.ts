@@ -30,6 +30,7 @@ export const navMenu: NavItem[] = [
       { label: "Venue", href: "/venue" },
       { label: "Conference Committee", href: "/conference_committee" },
       { label: "Contact Us", href: "/contact_us" },
+      { label: "Explore Jammu", href: "/explore_jammu" },
     ],
   },
   {

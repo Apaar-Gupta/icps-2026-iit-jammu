@@ -19,6 +19,15 @@ type Spot = {
 };
 
 const spots: Spot[] = [
+    {
+    name: "Vaishno Devi (Katra base camp)",
+    distance: "33 km from campus",
+    image: "/images/vaishno-devi.jpg",
+    description:
+      "The base town for the Vaishno Devi shrine, one of India's most-visited pilgrimage sites, set in the Trikuta Hills. The shrine itself is reached by an uphill trek (or pony/helicopter ride) of about 12 km from Katra.",
+    reach:
+      "Regular cabs and shared taxis run from Jammu to Katra, around an hour's drive from campus.",
+  },
   {
     name: "Raghunath Temple",
     distance: "12 km from campus",
@@ -38,15 +47,7 @@ const spots: Spot[] = [
     reach:
       "Just past Jammu city center — roughly 35–45 minutes from campus via NH-44.",
   },
-  {
-    name: "Vaishno Devi (Katra base camp)",
-    distance: "33 km from campus",
-    image: "/images/vaishno-devi.jpg",
-    description:
-      "The base town for the Vaishno Devi shrine, one of India's most-visited pilgrimage sites, set in the Trikuta Hills. The shrine itself is reached by an uphill trek (or pony/helicopter ride) of about 12 km from Katra.",
-    reach:
-      "Regular cabs and shared taxis run from Jammu to Katra, around an hour's drive from campus.",
-  },
+  
   {
     name: "Mansar Lake",
     distance: "63 km from campus",

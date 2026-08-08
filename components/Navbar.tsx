@@ -109,7 +109,7 @@ export default function Navbar() {
           <div className="relative h-9 w-14 ml-3 rounded overflow-hidden shadow-md">
 
             <Image
-              src="https://lh3.googleusercontent.com/sitesv/AG8ngQWhDBGS2Ji5Dv0aTXOU8_xdX-ZSmr0ONFHPooKH-Gu9T_QYY8KWYbDvZuc4rJhf9OPvk9OvXogmmVV_X6FrfHXuOje-IeuD4bTKVomhw7cjxeZHwSk9AfUteqFOIc1Ou8GwKjo0RxNFnjbqnPgZth75M6wWUKdmHC-Z9Ic7WVVnpmxyQ8xF2VMgh1RRggk=w16383"
+              src="/images/indian-flag.gif"
               alt="Indian Flag"
               fill
               className="object-cover"

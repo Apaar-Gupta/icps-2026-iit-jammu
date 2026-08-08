@@ -85,7 +85,7 @@ export default function ExploreJammuPage() {
       {/* Intro + spot cards */}
       <section className="bg-cream py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-navy-900/80 max-w-3xl mb-12 leading-relaxed ml-48">
+          <p className="text-navy-900/80 max-w-3xl mb-12 leading-relaxed md:ml-48">
             IIT Jammu&apos;s permanent campus sits at Jagti, along NH-44,
             close to the Trikuta Hills and about 20 km from Jammu airport
             and Jammu Tawi Railway Station. The city and the surrounding
@@ -136,8 +136,6 @@ export default function ExploreJammuPage() {
               </div>
             ))}
           </div>
-
-          
         </div>
       </section>
     </>

@@ -180,10 +180,7 @@ export default function SponsorshipPage() {
             ))}
           </div>
 
-          <p className="mt-6 text-[13px] text-[#0A1330]/60">
-            * and ** terms (exhibition space and complimentary registration
-            details) to be specified in the sponsorship agreement.
-          </p>
+          
         </section>
 
         {/* Sponsorship Application & Terms */}

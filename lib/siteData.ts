@@ -24,15 +24,7 @@ export type NavItem = {
 
 export const navMenu: NavItem[] = [
   { label: "Home", href: "/" },
-  {
-    label: "About",
-    dropdown: [
-      { label: "Venue", href: "/venue" },
-      { label: "Conference Committee", href: "/conference_committee" },
-      { label: "Contact Us", href: "/contact_us" },
-      { label: "Explore Jammu", href: "/explore_jammu" },
-    ],
-  },
+  
   {
     label: "For Authors",
     dropdown: [
@@ -53,11 +45,21 @@ export const navMenu: NavItem[] = [
   { label: "Registration", href: "/registration" },
   { label: "Sponsorship", href: "/sponsorship" },
   { label: "Accommodation", href: "/accomodation" },
+  { label: "VISA Support", href: "/visa" },
+  {
+    label: "About",
+    dropdown: [
+      { label: "Venue", href: "/venue" },
+      { label: "Conference Committee", href: "/conference_committee" },
+      { label: "Contact Us", href: "/contact_us" },
+      { label: "Explore Jammu", href: "/explore_jammu" },
+    ],
+  },
 ];
 
 // CTA buttons shown inside the Hero section (unrelated to the navbar above).
 export const navLinks = [
-  { label: "Call for Papers", href: "/docs/CFP-ICPS-2026.pdf" },
+  { label: "Call for Papers", href: "#" },
   { label: "Submit Paper", href: "/paper_submission" },
 ];
 

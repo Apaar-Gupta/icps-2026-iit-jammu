@@ -26,7 +26,7 @@ const guidelines: Guideline[] = [
         exceed six (6) A4 pages in length. Submit papers as a PDF file (max.
         size: 2MB).{" "}
         
-          <a href="https://www.ieee.org/conferences/publishing/templates.html"
+          <a href="https://drive.google.com/file/d/1K98Gl4YuTkawHSxaNkP3iF8nfN--UW4b/view?usp=drive_link"
           className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
         >
           Download the IEEE template here

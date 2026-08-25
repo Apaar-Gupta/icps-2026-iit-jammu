@@ -246,11 +246,13 @@ export default function RegistrationPage() {
               details may be needed as per the visa requirements, and we
               will request the necessary information when you contact us at{" "}
               <a
-                href="#"
-                className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
-              >
-                chair@icps2026.in
-              </a>
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=chair@icps2026.in"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
+>
+  chair@icps2026.in
+</a>
               .
             </p>
           </div>

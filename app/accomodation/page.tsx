@@ -30,67 +30,70 @@ type Hotel = {
 
 const hotels: Hotel[] = [
   {
-    name: "At Home",
-    roomType: "Standard Room (250 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "https://athomehyd.com/",
-    distance: "46",
-    travelTime: "65 mins",
+    name: "Radisson Blu Hotel, Jammu",
+    roomType: "Superior / Deluxe / Business Class Rooms",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website:
+      "https://www.radissonhotels.com/en-us/hotels/radisson-blu-jammu",
+    distance: "18 km",
+    travelTime: "30–40 mins",
   },
   {
-    name: "At Home",
-    roomType: "2 BHK Flat (1650 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "https://athomehyd.com/",
-    distance: "46",
-    travelTime: "65 mins",
+    name: "Country Inn & Suites by Radisson Jammu",
+    roomType: "Superior / Deluxe Rooms",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website:
+      "https://www.radissonhotels.com/en-us/hotels/country-inn-jammu",
+    distance: "22 km",
+    travelTime: "35–45 mins",
   },
   {
-    name: "At Home",
-    roomType: "3 BHK Flat (1950 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "https://athomehyd.com/",
-    distance: "46",
-    travelTime: "65 mins",
+    name: "Hotel K.C. Residency",
+    roomType: "Deluxe / Twin Bed Deluxe / Suites",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website: "https://www.kcresidency.com/",
+    distance: "13 km",
+    travelTime: "25–35 mins",
   },
   {
-    name: "Deccan Serai 3*",
-    roomType: "Executive Room (250–290 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "hitechcity.deccanserai.com",
-    distance: "50",
-    travelTime: "70 mins",
+    name: "Zone by The Park, Jammu",
+    roomType: "Zone Room / Deluxe Room / Suite",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website:
+      "https://www.zonebythepark.com/jammu-hotels/zone-by-the-park-jammu",
+    distance: "20 km",
+    travelTime: "30–40 mins",
   },
   {
-    name: "Deccan Serai 3*",
-    roomType: "Executive Room with Balcony (320 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "hitechcity.deccanserai.com",
-    distance: "50",
-    travelTime: "70 mins",
+    name: "Lemon Tree Hotel, Jammu",
+    roomType: "Deluxe Rooms / Executive Suites",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website: "https://www.lemontreehotels.com/",
+    distance: "20 km",
+    travelTime: "30–40 mins",
   },
   {
-    name: "Deccan Serai 3*",
-    roomType: "Executive Suite Room (325 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "hitechcity.deccanserai.com",
-    distance: "50",
-    travelTime: "70 mins",
+    name: "Fortune Inn Riviera, Jammu",
+    roomType: "Standard / Club / Suite Rooms",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website: "https://www.jkhrpl.in/",
+    distance: "13–15 km",
+    travelTime: "25–35 mins",
   },
   {
-    name: "Deccan Serai Grande 4*",
-    roomType: "Business Room (375 sq ft)",
-    single: "Discounts Available",
-    double: "Discounts Available",
-    website: "gachibowli.deccanserai.com",
-    distance: "44",
-    travelTime: "55 mins",
+    name: "Vivanta Jammu, City Centre",
+    roomType: "Rooms & Suites",
+    single: "Contact hotel",
+    double: "Contact hotel",
+    website: "https://www.vivantahotels.com/en-in/vivanta-jammu/",
+    distance: "13–15 km",
+    travelTime: "25–35 mins",
   },
 ];
 
@@ -156,7 +159,7 @@ export default function AccommodationPage() {
             >
               fill the accommodation request form
             </a>{" "}
-            to book your stay in the student hostels at IITH.
+            to book your stay in the student hostels at IIT JAMMU.
           </p>
 
           {/* Hostel Amenities */}
@@ -195,7 +198,7 @@ export default function AccommodationPage() {
             <li>Payment is non-refundable.</li>
             <li>No external guests or family members are allowed in hostel rooms.</li>
             <li>
-              Participants must follow IIT Hyderabad hostel regulations and
+              Participants must follow IIT Jammu hostel regulations and
               maintain decorum.
             </li>
             <li>Participants are responsible for their personal belongings.</li>
@@ -208,7 +211,7 @@ export default function AccommodationPage() {
               href="#"
               className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
             >
-              IIT Hyderabad Hostel Rules &amp; Regulations
+              IIT Jammu Hostel Rules &amp; Regulations
             </a>
             .
           </p>
@@ -350,7 +353,7 @@ export default function AccommodationPage() {
                     rowSpan={2}
                     className="bg-[#003f87] text-white font-semibold text-center px-4 py-3 align-middle border border-white/10"
                   >
-                    Distance from IITH (kms)
+                    Distance from IITJAMMU (kms)
                   </th>
                   <th
                     rowSpan={2}
@@ -388,7 +391,8 @@ export default function AccommodationPage() {
                     </td>
                     <td className="px-4 py-3 border border-[#003f87]/10 text-[#0A1330]/85">
                       <a
-                        href="#"
+                        href={hotel.website}
+                         target="_blank"
                         className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
                       >
                         {hotel.website}
@@ -406,12 +410,7 @@ export default function AccommodationPage() {
             </table>
           </div>
 
-          <p className="mt-3 text-[13px] text-[#0A1330]/60">
-            Hotel list above is copied from the ICPS 2025 / IIT Hyderabad
-            reference sheet — replace with IIT Jammu-area hotels. The
-            original sheet had a few additional rows that weren&apos;t fully
-            legible; add those in once you have the full list.
-          </p>
+          
         </section>
       </div>
 

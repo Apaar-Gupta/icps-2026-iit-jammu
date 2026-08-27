@@ -70,8 +70,10 @@ const steps: Step[] = [
           <li>
             Papers must adhere to the IEEE two-column format. Please follow
             the IEEE two-column A4 size standard conference format for
-            preparing your final manuscript. Download the IEEE template{" "}
-            <a href="https://www.ieee.org/conferences/publishing/templates.html" className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors">
+            preparing your final manuscript. Download the IEEE Template: Word | LaTeX (Overleaf) (template is attached) {" "}
+
+
+            <a href="https://drive.google.com/file/d/1K98Gl4YuTkawHSxaNkP3iF8nfN--UW4b/view" className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors">
               here
             </a>
             .

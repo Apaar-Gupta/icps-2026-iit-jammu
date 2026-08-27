@@ -29,7 +29,7 @@ const guidelines: Guideline[] = [
           <a href="https://drive.google.com/file/d/1K98Gl4YuTkawHSxaNkP3iF8nfN--UW4b/view?usp=drive_link"
           className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
         >
-          Download the IEEE template here
+          Download the IEEE Template: Word | LaTeX (Overleaf) (template is attached)
         </a>
         .
       </>

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | ICPS 2026",
-  description: "Contact details for ICPS 2026, hosted at IIT Jammu, India.",
+  title: "Contact Us | ICPS 2027",
+  description: "Contact details for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: names/emails copied as-is from ICPS 2025 for reference —
-// replace with the actual ICPS 2026 / IIT Jammu contacts before publishing.
+// replace with the actual ICPS 2027 / IIT Jammu contacts before publishing.
 const contactCards = [
   {
     label: "General Chair",
@@ -32,7 +32,7 @@ export default function ContactUsPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Contact Us
@@ -47,7 +47,7 @@ export default function ContactUsPage() {
         </p>
         <p className="text-[#0A1330]/80 leading-relaxed">
           If you have any questions or require further clarification
-          regarding ICPS 2026, please feel free to reach out to us. Our team
+          regarding ICPS 2027, please feel free to reach out to us. Our team
           will be pleased to provide the necessary support.
         </p>
       </section>
@@ -123,8 +123,8 @@ export default function ContactUsPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

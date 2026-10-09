@@ -18,9 +18,9 @@ const body = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ICPS 2026 | IIT Jammu",
+  title: "ICPS 2027 | IIT Jammu",
   description:
-    "International Conference on Power Systems (ICPS) 2026, hosted at IIT Jammu, India.",
+    "International Conference on Power Systems (ICPS) 2027, hosted at IIT Jammu, India.",
 };
 
 export default function RootLayout({

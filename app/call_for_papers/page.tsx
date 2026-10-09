@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Call for Papers | ICPS 2026",
+  title: "Call for Papers | ICPS 2027",
   description:
-    "Call for Papers for ICPS 2026, hosted at IIT Jammu, India.",
+    "Call for Papers for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: text copied as-is from ICPS 2025 for reference — update dates,
-// theme wording, and topics as needed for ICPS 2026 / IIT Jammu.
+// theme wording, and topics as needed for ICPS 2027 / IIT Jammu.
 // All hrefs below are left as "#" placeholders — fill in the real
 // links yourself once the pages/files exist.
 
@@ -41,7 +41,7 @@ export default function CallForPapersPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Call for Papers
@@ -55,7 +55,7 @@ export default function CallForPapersPage() {
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px]">
             The <strong>Indian Institute of Technology (IIT) Jammu</strong> is
             excited to host the 12th edition of the{" "}
-            <strong>International Conference on Power Systems (ICPS 2026)</strong>,
+            <strong>International Conference on Power Systems (ICPS 2027)</strong>,
             which will take place from <strong>7th to 9th December 2025</strong>.
             Since its establishment in 2004 by prominent academicians from
             India and Nepal, ICPS has become a leading biennial event,
@@ -85,7 +85,7 @@ export default function CallForPapersPage() {
           </h2>
           <div className="w-16 h-[3px] bg-[#c9631a] rounded-full mb-6" />
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px]">
-            The theme of ICPS 2026 is{" "}
+            The theme of ICPS 2027 is{" "}
             <strong>
               &ldquo;Leveraging Smart Technologies for Clean, Resilient, and
               Secure Power Systems&rdquo;
@@ -94,7 +94,7 @@ export default function CallForPapersPage() {
             emerging technologies in creating power systems that are
             sustainable, secure, and resilient. As the power sector adapts to
             meet global demands for energy security and sustainability, ICPS
-            2026 will explore key innovations in smart grids, renewable
+            2027 will explore key innovations in smart grids, renewable
             energy integration, and AI-driven solutions.
           </p>
         </section>
@@ -204,15 +204,15 @@ export default function CallForPapersPage() {
 
         <p className="text-center text-[#0A1330]/70 text-[15px]">
           We look forward to your contributions and to welcoming you at ICPS
-          2026!
+          2027!
         </p>
       </div>
 
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

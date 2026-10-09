@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Explore Jammu | ICPS 2026",
+  title: "Explore Jammu | ICPS 2027",
   description:
-    "A guide to the heritage sites, temples, and scenic spots near IIT Jammu for ICPS 2026 delegates.",
+    "A guide to the heritage sites, temples, and scenic spots near IIT Jammu for ICPS 2027 delegates.",
 };
 
 type Spot = {
@@ -78,7 +78,7 @@ export default function ExploreJammuPage() {
           Explore Jammu
         </h1>
         <p className="mt-4 text-white/80 max-w-2xl mx-auto">
-          A quick guide for ICPS 2026 delegates — heritage temples, forts,
+          A quick guide for ICPS 2027 delegates — heritage temples, forts,
           and scenic spots near the IIT Jammu campus.
         </p>
       </section>

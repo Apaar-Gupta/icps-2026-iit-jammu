@@ -7,7 +7,7 @@ export default function Hero() {
       {/* full-bleed background image */}
       <Image
         src="/images/ICPS.png"
-        alt="ICPS 2026 background"
+        alt="ICPS 2027 background"
         fill
         priority
         className="object-cover object-center z-10 opacity-45"

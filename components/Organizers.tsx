@@ -9,7 +9,7 @@ export default function Organizers() {
 
       {organizers.length === 0 ? (
         <p className="text-navy-800/60 text-sm">
-          Add organizer logos in <code>lib/siteData.ts</code> (e.g. IIT Jammu).
+          
         </p>
       ) : (
         <div className="flex flex-wrap justify-center items-center gap-12">

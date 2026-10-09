@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Conference Tracks | ICPS 2026",
+  title: "Conference Tracks | ICPS 2027",
   description:
-    "Conference tracks for ICPS 2026, hosted at IIT Jammu, India.",
+    "Conference tracks for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: track titles/topics copied as-is from ICPS 2025 for reference —
-// update as needed for ICPS 2026 / IIT Jammu. The contact email in the
+// update as needed for ICPS 2027 / IIT Jammu. The contact email in the
 // intro is left unlinked as "#" — add the mailto link yourself.
 
 type Track = { title: string; topics: string[] };
@@ -105,7 +105,7 @@ export default function TracksPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Conference Tracks
@@ -123,7 +123,7 @@ export default function TracksPage() {
             Track Selection
           </h2>
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px]">
-            The ICPS 2026 conference features a diverse range of tracks, each
+            The ICPS 2027 conference features a diverse range of tracks, each
             designed to showcase cutting-edge research in various fields of
             power systems, energy, and technology. We encourage authors to
             select the track that best aligns with the content of their
@@ -171,8 +171,8 @@ export default function TracksPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

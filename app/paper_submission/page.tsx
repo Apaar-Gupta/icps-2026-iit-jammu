@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Paper Submission Guidelines | ICPS 2026",
+  title: "Paper Submission Guidelines | ICPS 2027",
   description:
-    "Author and paper submission guidelines for ICPS 2026, hosted at IIT Jammu, India.",
+    "Author and paper submission guidelines for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: text copied as-is from ICPS 2025 for reference — update as needed
-// for ICPS 2026 / IIT Jammu. All hrefs are left as "#" placeholders —
+// for ICPS 2027 / IIT Jammu. All hrefs are left as "#" placeholders —
 // fill in the real links yourself.
 
 type Guideline = { label: string; body: React.ReactNode };
@@ -130,7 +130,7 @@ export default function SubmissionPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Paper Submission Guidelines
@@ -150,7 +150,7 @@ export default function SubmissionPage() {
           <div className="w-16 h-[3px] bg-[#c9631a] rounded-full mb-6" />
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-6">
             The following guidelines must be strictly adhered to while
-            submitting your manuscript to ICPS 2026:
+            submitting your manuscript to ICPS 2027:
           </p>
 
           <div className="space-y-3">
@@ -249,8 +249,8 @@ export default function SubmissionPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

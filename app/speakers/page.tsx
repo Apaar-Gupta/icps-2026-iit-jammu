@@ -97,7 +97,7 @@ export default function ProgramPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xs font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Keynote Speakers &amp; Tutorial Sessions
@@ -115,7 +115,7 @@ export default function ProgramPage() {
             Overview
           </h2>
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-3">
-            ICPS 2026 features a strong set of keynote talks and tutorials
+            ICPS 2027 features a strong set of keynote talks and tutorials
             addressing current challenges and developments in modern power
             and energy systems. The sessions cover grid operations,
             renewable integration, electricity markets, energy storage,
@@ -230,7 +230,7 @@ export default function ProgramPage() {
             <strong className="text-[#0A1330]/80">Chairman:</strong> {wiePanel.chairman}
           </p>
           <p className="text-[#0A1330]/85 leading-relaxed text-[14px] mb-6">
-            ICPS 2026 is happy to host a Women in Engineering (WIE) panel
+            ICPS 2027 is happy to host a Women in Engineering (WIE) panel
             featuring distinguished leaders from research, industry, system
             operations, and advanced technology domains. The session
             highlights the contributions, challenges, and future pathways
@@ -277,8 +277,8 @@ export default function ProgramPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

@@ -11,7 +11,7 @@ import Image from "next/image";
 // state for the accordion.
 
 // NOTE: text copied as-is from ICPS 2025 for reference — update as needed
-// for ICPS 2026 / IIT Jammu. All hrefs are left as "#" placeholders —
+// for ICPS 2027 / IIT Jammu. All hrefs are left as "#" placeholders —
 // fill in the real links yourself. The two example screenshots referenced
 // in Step 6 are NOT included (can't copy them from another site) — add
 // your own screenshots at /public/images/example1.png and example2.png.
@@ -335,7 +335,7 @@ export default function CameraReadyPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xs font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Camera-Ready Paper Submission Guidelines
@@ -439,8 +439,8 @@ export default function CameraReadyPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

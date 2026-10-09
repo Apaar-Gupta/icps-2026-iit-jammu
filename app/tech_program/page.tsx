@@ -15,7 +15,7 @@ export default function TechProgramPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Technical Program
@@ -34,7 +34,7 @@ export default function TechProgramPage() {
           </h2>
           <div className="w-16 h-[3px] bg-[#c9631a] rounded-full mb-6" />
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-6 max-w-3xl">
-            The ICPS 2026 Technical Program spans over a three-day program
+            The ICPS 2027 Technical Program spans over a three-day program
             and features a structured blend of tutorials, keynote lectures,
             parallel paper sessions, poster presentations, and thematic
             discussions spanning multiple tracks within power systems, power
@@ -317,8 +317,8 @@ export default function TechProgramPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

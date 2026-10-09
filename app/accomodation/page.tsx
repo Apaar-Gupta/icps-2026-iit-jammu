@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Accommodation | ICPS 2026",
+  title: "Accommodation | ICPS 2027",
   description:
-    "Accommodation facilities for ICPS 2026, hosted at IIT Jammu, India.",
+    "Accommodation facilities for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: text copied as-is from ICPS 2025 for reference — update as needed
-// for ICPS 2026 / IIT Jammu. All hrefs are left as "#" placeholders — fill
+// for ICPS 2027 / IIT Jammu. All hrefs are left as "#" placeholders — fill
 // in the real links yourself.
 //
 // IMPORTANT: The "Accommodation in Nearby Hotels" table below (hotel names,
@@ -105,7 +105,7 @@ export default function AccommodationPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Accommodation Facilities
@@ -133,7 +133,7 @@ export default function AccommodationPage() {
 
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-4">
             Accommodation for students is being provided at student hostels
-            (single occupancy) for ICPS 2026 participants. Please note the
+            (single occupancy) for ICPS 2027 participants. Please note the
             following important details
           </p>
 
@@ -305,7 +305,7 @@ export default function AccommodationPage() {
 
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-4">
             Below is a list of hotels that have kindly agreed to potentially
-            offer discounted rates for attendees of the ICPS 2026 conference.
+            offer discounted rates for attendees of the ICPS 2027 conference.
             Please note that this list is provided solely for your reference
             and does not imply any endorsement or recommendation by the
             conference organizers. Attendees are advised to make bookings
@@ -317,7 +317,7 @@ export default function AccommodationPage() {
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-8">
             <strong>Important:</strong> To avail of any potential discounts,
             please make sure to clearly mention that your booking is for the
-            &ldquo;ICPS 2026 Conference&rdquo; at the time of reservation.
+            &ldquo;ICPS 2027 Conference&rdquo; at the time of reservation.
           </p>
 
           {/* Hotel Table */}
@@ -341,7 +341,7 @@ export default function AccommodationPage() {
                     colSpan={2}
                     className="bg-[#003f87] text-white font-semibold text-center px-4 py-2 border border-white/10"
                   >
-                    Special Discount Rates for ICPS 2026
+                    Special Discount Rates for ICPS 2027
                   </th>
                   <th
                     rowSpan={2}
@@ -417,8 +417,8 @@ export default function AccommodationPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

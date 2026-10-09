@@ -4,12 +4,12 @@ import { useState } from "react";
 import type { ReactNode } from "react";
 
 // NOTE: text copied as-is from ICPS 2025 for reference — update dates,
-// durations, and file-size limits as needed for ICPS 2026 / IIT Jammu.
+// durations, and file-size limits as needed for ICPS 2027 / IIT Jammu.
 // All hrefs are left as "#" placeholders — fill in the real links
 // (template downloads, upload form) yourself.
 
 const overview = [
-  "All accepted papers must be presented at ICPS 2026 to be eligible for IEEE Xplore submission.",
+  "All accepted papers must be presented at ICPS 2027 to be eligible for IEEE Xplore submission.",
   "Authors must upload the final presentation PDF using the form linked below.",
   "Poster presenters are required to bring a printed poster (A0 size). No upload required.",
 ];
@@ -22,7 +22,7 @@ const steps: Step[] = [
     body: (
       <>
         <p className="mb-3">
-          Oral presentations at ICPS 2026 follow a tightly managed schedule.
+          Oral presentations at ICPS 2027 follow a tightly managed schedule.
           Please review the guidelines below to ensure a smooth and timely
           session:
         </p>
@@ -48,7 +48,7 @@ const steps: Step[] = [
     body: (
       <>
         <p className="mb-4">
-          Authors may optionally use the official ICPS 2026 presentation
+          Authors may optionally use the official ICPS 2027 presentation
           template:
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
@@ -96,7 +96,7 @@ const steps: Step[] = [
         <div className="rounded-md border-l-4 border-[#c9631a] bg-[#c9631a]/5 px-4 py-3">
           <p className="text-[14px] text-[#0A1330]/85">
             <strong className="text-[#c9631a]">Upload Deadline:</strong> 5
-            December 2026
+            December 2027
           </p>
           <p className="text-[13px] text-[#0A1330]/60 mt-1">
             No modifications will be accepted after the deadline.
@@ -146,7 +146,7 @@ export default function PresentationGuidelinesPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Instructions for Paper &amp; Poster Presentations
@@ -159,7 +159,7 @@ export default function PresentationGuidelinesPage() {
         <section>
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px]">
             This page provides essential guidelines for authors presenting
-            their work at <strong>ICPS 2026</strong>. Please read the
+            their work at <strong>ICPS 2027</strong>. Please read the
             instructions carefully and complete the presentation upload
             before the deadline.
           </p>
@@ -263,8 +263,8 @@ export default function PresentationGuidelinesPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

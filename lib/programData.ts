@@ -1,6 +1,6 @@
 // Data for the Keynote Speakers / Tutorials / Panels page.
 // NOTE: all names/titles/bios copied as-is from ICPS 2025 for reference —
-// update as needed for ICPS 2026 / IIT Jammu. Speaker photos are NOT
+// update as needed for ICPS 2027 / IIT Jammu. Speaker photos are NOT
 // included (can't copy them from another site) — each entry has an
 // `photoSrc` you can point at your own image in /public/images/, and a
 // fallback initials avatar renders until you do.

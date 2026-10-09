@@ -1,6 +1,6 @@
 // Data for the Technical Program page.
 // NOTE: all names/titles/times copied as-is from ICPS 2025 for reference —
-// update as needed for ICPS 2026 / IIT Jammu.
+// update as needed for ICPS 2027 / IIT Jammu.
 
 export type ScheduleRow = { time: string; session: string; details: string };
 export type DaySchedule = {

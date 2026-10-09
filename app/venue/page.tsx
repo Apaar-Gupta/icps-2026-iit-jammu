@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Venue | ICPS 2026",
+  title: "Venue | ICPS 2027",
   description:
-    "Conference venue details and directions for ICPS 2026, hosted at IIT Jammu, India.",
+    "Conference venue details and directions for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 type Route = {
@@ -64,7 +64,7 @@ export default function VenuePage() {
 
         {/* Background Image */}
         <Image
-          src="/images/iit-jammu.jpg"
+          src="/images/iit-jammu2.jpeg"
           alt="Indian Institute of Technology Jammu"
           fill
           priority
@@ -92,7 +92,7 @@ export default function VenuePage() {
           </h1>
 
           <p className="mt-6 text-xl md:text-3xl text-white/90">
-            ICPS 2026 will be hosted at IIT Jammu, India
+            ICPS 2027 will be hosted at IIT Jammu, India
           </p>
 
         </div>
@@ -139,7 +139,7 @@ export default function VenuePage() {
 
           <p>
             We look forward to welcoming delegates from around the world to
-            the picturesque campus of IIT Jammu for ICPS 2026.
+            the picturesque campus of IIT Jammu for ICPS 2027.
           </p>
 
         </div>
@@ -216,7 +216,7 @@ export default function VenuePage() {
 
         <div className="max-w-6xl mx-auto px-4 py-6 text-center text-sm">
 
-          © {new Date().getFullYear()} ICPS 2026. All Rights Reserved.
+          © {new Date().getFullYear()} ICPS 2027. All Rights Reserved.
 
           <br />
 

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Registration | ICPS 2026",
+  title: "Registration | ICPS 2027",
   description:
-    "Conference registration details and fees for ICPS 2026, hosted at IIT Jammu, India.",
+    "Conference registration details and fees for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: text/figures copied as-is from ICPS 2025 for reference — update as
-// needed for ICPS 2026 / IIT Jammu. All hrefs are left as "#" placeholders —
+// needed for ICPS 2027 / IIT Jammu. All hrefs are left as "#" placeholders —
 // fill in the real links yourself.
 
 type FeeRow = {
@@ -64,7 +64,7 @@ export default function RegistrationPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Conference Registration Details
@@ -79,7 +79,7 @@ export default function RegistrationPage() {
             Registration
           </p>
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-[#003f87] mb-6">
-            Register for ICPS 2026
+            Register for ICPS 2027
           </h2>
 
           <a
@@ -101,7 +101,7 @@ export default function RegistrationPage() {
           <div className="w-16 h-[3px] bg-[#c9631a] rounded-full mb-6" />
 
           <p className="text-[#0A1330]/85 leading-relaxed text-[15px] mb-8">
-            The registration fees for ICPS 2026 are outlined below. We
+            The registration fees for ICPS 2027 are outlined below. We
             encourage you to register before the deadlines to take advantage
             of the Early Bird registration discounts. The fees provide access
             to all conference activities, including technical sessions,
@@ -246,12 +246,12 @@ export default function RegistrationPage() {
               details may be needed as per the visa requirements, and we
               will request the necessary information when you contact us at{" "}
               <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=chair@icps2026.in"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=chair@icps2027.in"
   target="_blank"
   rel="noopener noreferrer"
   className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
 >
-  chair@icps2026.in
+  chair@icps2027.in
 </a>
               .
             </p>
@@ -262,8 +262,8 @@ export default function RegistrationPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

@@ -1,15 +1,15 @@
-// Centralized content for the ICPS 2026 site.
+// Centralized content for the ICPS 2027 site.
 // Edit this file to update dates, sponsors, and announcements —
 // the components just render whatever is defined here.
 
 export const conference = {
-  shortName: "ICPS 2026",
-  fullName: "International Conference on Power Systems (ICPS) 2026",
+  shortName: "ICPS 2027",
+  fullName: "International Conference on Power Systems (ICPS) 2027",
   edition: "12th",
   theme:
     "Leveraging Smart Technologies for Clean, Resilient, and Secure Power Systems",
   venue: "Indian Institute of Technology Jammu, India",
-  dates: "December 2026", // update with exact dates once finalized
+  dates: "December 2027", // update with exact dates once finalized
   host: "Indian Institute of Technology (IIT) Jammu",
   department: "Department of Electrical Engineering, IIT Jammu",
 };
@@ -69,11 +69,11 @@ export const topStrip = {
 };
 
 export const aboutParagraphs = [
-  `The International Conference on Power Systems (ICPS) 2026, themed "${
+  `The International Conference on Power Systems (ICPS) 2027, themed "${
     "Leveraging Smart Technologies for Clean, Resilient, and Secure Power Systems"
   }", aims to explore the transformative role of emerging technologies in shaping the future of global power systems. As the power sector enters a new era driven by the need for enhanced sustainability, resilience, and security, ICPS provides a unique forum for researchers, engineers, and policymakers from academia, industry, and practice to engage in thought-provoking discussions and collaborative efforts.`,
   `The 12th edition of ICPS will be held at IIT Jammu, India, bringing together experts to exchange knowledge across a wide range of power systems domains — including Smart Grid and Power Systems, Smart Generation, Transmission & Distribution, Renewable Energy Systems, and Artificial Intelligence and Data Analytics.`,
-  `On behalf of the Steering Committee and the Organizing Committee, we cordially invite you to join us at IIT Jammu for ICPS 2026. With a mix of technical sessions, interactive panel discussions, and tutorials by leading experts, this conference will provide valuable opportunities for networking, learning, and collaboration.`,
+  `On behalf of the Steering Committee and the Organizing Committee, we cordially invite you to join us at IIT Jammu for ICPS 2027. With a mix of technical sessions, interactive panel discussions, and tutorials by leading experts, this conference will provide valuable opportunities for networking, learning, and collaboration.`,
 ];
 
 export type Sponsor = { name: string; logo: string; url?: string };
@@ -114,7 +114,7 @@ export const importantDates: DateRow[] = [
   { event: "Registration opens", date: "TBA" },
   { event: "Deadline for Author Registration", date: "TBA" },
   { event: "Early bird registration ends", date: "TBA" },
-  { event: "Conference dates", date: "December 2026" },
+  { event: "Conference dates", date: "December 2027" },
 ];
 
 export type Update = { date: string; text: string; href?: string };
@@ -122,7 +122,7 @@ export type Update = { date: string; text: string; href?: string };
 export const updates: Update[] = [
   {
     date: "31 July 2026",
-    text: "Website for ICPS 2026 is now live. More details coming soon.",
+    text: "Website for ICPS 2027 is now live. More details coming soon.",
   },
 ];
 

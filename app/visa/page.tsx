@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Visa Support | ICPS 2026",
+  title: "Visa Support | ICPS 2027",
   description:
-    "Visa invitation and support letter information for international participants attending ICPS 2026 at IIT Jammu.",
+    "Visa invitation and support letter information for international participants attending ICPS 2027 at IIT Jammu.",
 };
 
 export default function VisaSupportPage() {
@@ -27,7 +27,7 @@ export default function VisaSupportPage() {
 
           <p className="mt-4 text-white/80 text-lg max-w-2xl mx-auto">
             Visa invitation and support letter information for participants
-            attending ICPS 2026 at IIT Jammu.
+            attending ICPS 2027 at IIT Jammu.
           </p>
         </div>
       </header>
@@ -51,7 +51,7 @@ export default function VisaSupportPage() {
             <p>
               International participants attending the{" "}
               <strong>
-                International Conference on Power Systems (ICPS) 2026
+                International Conference on Power Systems (ICPS) 2027
               </strong>{" "}
               at the Indian Institute of Technology Jammu may request an
               official visa invitation/support letter from the conference
@@ -91,12 +91,12 @@ export default function VisaSupportPage() {
               </p>
 
               <p className="text-lg font-semibold text-[#003f87] break-all">
-                icps-2026@iitjammu.ac.in
+                icps-2027@iitjammu.ac.in
               </p>
             </div>
 
             <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=icps-2026@iitjammu.ac.in&su=Visa%20Support%20Request%20-%20ICPS%202026"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=icps-2027@iitjammu.ac.in&su=Visa%20Support%20Request%20-%20ICPS%202027"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center px-6 py-3 rounded-md bg-[#c9631a] text-white font-semibold hover:bg-[#a94f15] transition-colors"
@@ -159,7 +159,7 @@ export default function VisaSupportPage() {
                 <span className="text-[#c9631a] font-bold">•</span>
                 <span>
                   <strong>Paper ID and Title:</strong> If you are an author
-                  presenting a paper at ICPS 2026.
+                  presenting a paper at ICPS 2027.
                 </span>
               </li>
 
@@ -190,7 +190,7 @@ export default function VisaSupportPage() {
 
           <p className="text-sm text-[#0A1330]/75 leading-relaxed">
             The visa support letter is intended to facilitate the visa
-            application process for eligible ICPS 2026 participants. Issuance
+            application process for eligible ICPS 2027 participants. Issuance
             of a visa remains subject to the rules, requirements, and decision
             of the relevant Indian authorities. Participants are advised to
             apply for their visa well in advance of their intended travel
@@ -202,8 +202,8 @@ export default function VisaSupportPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

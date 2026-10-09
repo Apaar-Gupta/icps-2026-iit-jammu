@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sponsorship | ICPS 2026",
+  title: "Sponsorship | ICPS 2027",
   description:
-    "Sponsorship opportunities and tiers for ICPS 2026, hosted at IIT Jammu, India.",
+    "Sponsorship opportunities and tiers for ICPS 2027, hosted at IIT Jammu, India.",
 };
 
 // NOTE: text/figures copied as-is from ICPS 2025 for reference — update as
-// needed for ICPS 2026 / IIT Jammu. All hrefs / mailtos are left as "#"
+// needed for ICPS 2027 / IIT Jammu. All hrefs / mailtos are left as "#"
 // placeholders — fill in the real links yourself.
 
 type Tier = {
@@ -88,7 +88,7 @@ export default function SponsorshipPage() {
         <div className="pointer-events-none absolute -top-24 -right-24 w-96 h-96 rounded-full bg-white/5 blur-3xl" />
         <div className="relative max-w-5xl mx-auto px-4 pt-16 pb-14 text-center">
           <p className="text-xl font-semibold tracking-[0.25em] uppercase text-orange-300 mb-3">
-            ICPS 2026
+            ICPS 2027
           </p>
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
             Sponsorship Opportunities
@@ -103,13 +103,13 @@ export default function SponsorshipPage() {
             Sponsorship
           </p>
           <h2 className="font-serif text-2xl md:text-3xl font-bold text-[#003f87] mb-2">
-            Become a Sponsor of ICPS 2026
+            Become a Sponsor of ICPS 2027
           </h2>
           <div className="w-16 h-[3px] bg-[#c9631a] rounded-full mb-6" />
 
           <div className="space-y-5 text-[#0A1330]/85 leading-relaxed text-[15px]">
             <p>
-              ICPS 2026 provides a unique opportunity to highlight your
+              ICPS 2027 provides a unique opportunity to highlight your
               organization&apos;s innovations in the power systems and energy
               technology sectors. Sponsorship offers your company high
               visibility among a diverse audience of industry professionals,
@@ -122,12 +122,12 @@ export default function SponsorshipPage() {
 
             <p>
               For sponsorship-related queries or to express interest in
-              supporting ICPS 2026, please contact us at{" "}
+              supporting ICPS 2027, please contact us at{" "}
               <a
                 href="#"
                 className="text-[#003f87] font-semibold underline decoration-[#c9631a]/40 hover:text-[#c9631a] transition-colors"
               >
-                chair@icps2026.in
+                chair@icps2027.in
               </a>
               .
             </p>
@@ -233,8 +233,8 @@ export default function SponsorshipPage() {
       {/* Footer */}
       <footer className="bg-[#003f87] text-white/70 text-sm">
         <div className="max-w-6xl mx-auto px-4 py-6 text-center">
-          © {new Date().getFullYear()} ICPS 2026. All rights reserved. | ICPS
-          2026 is organized by the Department of Electrical Engineering, IIT
+          © {new Date().getFullYear()} ICPS 2027. All rights reserved. | ICPS
+          2027 is organized by the Department of Electrical Engineering, IIT
           Jammu.
         </div>
       </footer>

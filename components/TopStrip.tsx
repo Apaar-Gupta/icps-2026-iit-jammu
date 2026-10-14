@@ -1,23 +1,25 @@
 import { topStrip } from "@/lib/siteData";
 
 export default function TopStrip() {
+  // Enough repeats so one group is always wider than the screen
+  const repeats = Array.from({ length: 4 });
+
   return (
-    <div className="bg-cream text-saffron-600 border-b border-navy-900/10 overflow-hidden whitespace-nowrap">
-      <div className="inline-flex animate-marquee py-2 text-sm font-medium">
-        <a
-          
-          className="px-6 hover:text-saffron-500 transition-colors"
-        >
-          {topStrip.text}
-        </a>
-        {/* duplicated so the strip loops seamlessly */}
-        <a
-          
-          aria-hidden="true"
-          className="px-6 hover:text-saffron-500 transition-colors"
-        >
-          {topStrip.text}
-        </a>
+    <div className="overflow-hidden whitespace-nowrap border-b border-navy-900/10 bg-cream text-saffron-600">
+      <div className="marquee-track py-2 text-sm font-medium">
+        {[0, 1].map((group) => (
+          <div
+            key={group}
+            className="marquee-group"
+            aria-hidden={group === 1}
+          >
+            {repeats.map((_, i) => (
+              <span key={i} className="px-12">
+                {topStrip.text}
+              </span>
+            ))}
+          </div>
+        ))}
       </div>
     </div>
   );

@@ -12,36 +12,36 @@ export default function Navbar() {
   );
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#003f87] text-white shadow-lg shadow-black/20">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
-        {/* ================= Left Logo ================= */}
-        <Link href="/" className="flex items-center gap-3 whitespace-nowrap">
-          {/* IIT Jammu Logo */}
-          <div className="relative h-11 w-11 md:h-12 md:w-12 flex-shrink-0">
+    <nav className="sticky top-0 z-50 w-full bg-[#003f87] text-white shadow-lg shadow-black/20">
+      <div className="mx-auto flex h-20 w-full max-w-[1440px] items-center justify-between gap-4 px-4 lg:px-6">
+        {/* ================= Left: Logo + Name ================= */}
+        <Link href="/" className="flex shrink-0 items-center gap-3">
+          <div className="relative h-14 w-36 sm:h-16 sm:w-44 shrink-0">
             <Image
-              src="/images/iit-logo.png"
+              src="/images/iit-logo-2.png"
               alt="IIT Jammu Logo"
               fill
               priority
-              className="object-contain"
+              quality={100}
+              sizes="(max-width: 640px) 144px, 176px"
+              className="object-contain object-left"
             />
           </div>
 
-          {/* Conference Name */}
-          <span className="font-display font-bold text-2xl tracking-wide">
+          <span className="font-display ml-1 text-2xl font-bold tracking-wide whitespace-nowrap sm:ml-2 sm:text-3xl">
             {conference.shortName}
           </span>
         </Link>
 
-        {/* ================= Right side: nav links + flag + mobile toggle ================= */}
-        <div className="flex items-center gap-3 md:gap-6">
-          {/* Desktop Navigation — hidden on mobile */}
-          <ul className="hidden md:flex items-center gap-6">
+        {/* ================= Right: Links + Flag + Toggle ================= */}
+        <div className="flex min-w-0 items-center gap-3 xl:gap-4">
+          {/* Desktop navigation */}
+          <ul className="hidden xl:flex items-center gap-1">
             {navMenu.map((item) => (
               <li key={item.label} className="relative group">
                 {item.dropdown ? (
                   <>
-                    <button className="flex items-center gap-1 px-4 py-2 text-sm font-semibold rounded-md hover:bg-[#0052ad] transition-colors duration-200">
+                    <button className="flex items-center gap-1 whitespace-nowrap rounded-md px-3 py-2 text-sm font-semibold transition-colors duration-200 hover:bg-[#0052ad]">
                       {item.label}
                       <svg
                         width="10"
@@ -58,14 +58,14 @@ export default function Navbar() {
                       </svg>
                     </button>
 
-                    {/* Dropdown */}
-                    <div className="invisible opacity-0 translate-y-1 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 absolute left-0 top-full pt-2 transition-all duration-200">
-                      <div className="bg-[#003f87] rounded-md shadow-xl overflow-hidden min-w-[220px] border border-blue-700">
+                    {/* Dropdown (right-aligned so it never overflows the screen) */}
+                    <div className="invisible absolute right-0 top-full translate-y-1 pt-2 opacity-0 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                      <div className="min-w-[220px] overflow-hidden rounded-md border border-blue-700 bg-[#003f87] shadow-xl">
                         {item.dropdown.map((sub) => (
                           <a
                             key={sub.label}
                             href={sub.href}
-                            className="block px-4 py-2.5 text-sm text-white hover:bg-[#0052ad] hover:text-yellow-300 transition-colors"
+                            className="block whitespace-nowrap px-4 py-2.5 text-sm text-white transition-colors hover:bg-[#0052ad] hover:text-yellow-300"
                           >
                             {sub.label}
                           </a>
@@ -76,7 +76,7 @@ export default function Navbar() {
                 ) : (
                   <a
                     href={item.href}
-                    className="block px-4 py-2 text-sm font-semibold rounded-md hover:bg-[#0052ad] transition-colors duration-200"
+                    className="block whitespace-nowrap rounded-md px-3 py-2 text-sm font-semibold transition-colors duration-200 hover:bg-[#0052ad]"
                   >
                     {item.label}
                   </a>
@@ -85,19 +85,21 @@ export default function Navbar() {
             ))}
           </ul>
 
-          {/* ================= Indian Flag — visible on all screen sizes ================= */}
-          <div className="relative h-6 w-9 md:h-9 md:w-14 rounded overflow-hidden shadow-md shrink-0">
+          {/* Indian flag, always inside the bar */}
+          <div className="relative h-7 w-10 shrink-0 overflow-hidden rounded shadow-md md:h-8 md:w-12">
             <Image
               src="/images/indian-flag.gif"
               alt="Indian Flag"
               fill
+              unoptimized
+              sizes="48px"
               className="object-cover"
             />
           </div>
 
-          {/* ================= Mobile Toggle — hidden on desktop ================= */}
+          {/* Mobile toggle */}
           <button
-            className="md:hidden p-2"
+            className="shrink-0 p-2 xl:hidden"
             onClick={() => setMobileOpen((v) => !v)}
             aria-label="Toggle menu"
             aria-expanded={mobileOpen}
@@ -123,15 +125,15 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* ================= Mobile Navigation ================= */}
+      {/* ================= Mobile / tablet navigation ================= */}
       {mobileOpen && (
-        <div className="md:hidden border-t border-blue-700 bg-[#003f87]">
+        <div className="max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-blue-700 bg-[#003f87] xl:hidden">
           {navMenu.map((item) => (
             <div key={item.label} className="border-b border-blue-700">
               {item.dropdown ? (
                 <>
                   <button
-                    className="w-full flex items-center justify-between px-4 py-3 text-sm font-semibold hover:bg-[#0052ad] transition-colors"
+                    className="flex w-full items-center justify-between px-4 py-3 text-sm font-semibold transition-colors hover:bg-[#0052ad]"
                     onClick={() =>
                       setOpenMobileDropdown((v) =>
                         v === item.label ? null : item.label
@@ -150,7 +152,7 @@ export default function Navbar() {
                         <a
                           key={sub.label}
                           href={sub.href}
-                          className="block px-6 py-2 text-sm text-white/80 hover:bg-[#0052ad] hover:text-yellow-300 transition-colors"
+                          className="block px-6 py-2 text-sm text-white/80 transition-colors hover:bg-[#0052ad] hover:text-yellow-300"
                         >
                           {sub.label}
                         </a>
@@ -161,7 +163,7 @@ export default function Navbar() {
               ) : (
                 <a
                   href={item.href}
-                  className="block px-4 py-3 text-sm font-semibold hover:bg-[#0052ad] transition-colors"
+                  className="block px-4 py-3 text-sm font-semibold transition-colors hover:bg-[#0052ad]"
                 >
                   {item.label}
                 </a>

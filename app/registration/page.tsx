@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
+import ComingSoon from "@/components/ComingSoon";
 
 export const metadata: Metadata = {
   title: "Registration | ICPS 2027",
   description:
     "Conference registration details and fees for ICPS 2027, hosted at IIT Jammu, India.",
 };
+
+// TEMPORARY: showing "To be announced" on this page for now. The real
+// registration page below (RegistrationPageOriginal) is kept fully intact —
+// nothing was deleted. To restore it, change the exported `RegistrationPage`
+// function at the bottom of this file back to `return <RegistrationPageOriginal />;`.
+export default function RegistrationPage() {
+  return <ComingSoon title="Conference Registration Details" />;
+}
 
 // NOTE: text/figures copied as-is from ICPS 2025 for reference — update as
 // needed for ICPS 2027 / IIT Jammu. All hrefs are left as "#" placeholders —
@@ -56,7 +65,7 @@ const feeRows: FeeRow[] = [
   },
 ];
 
-export default function RegistrationPage() {
+function RegistrationPageOriginal() {
   return (
     <main className="bg-[#FBF7F0] text-[#0A1330]">
       {/* Hero */}

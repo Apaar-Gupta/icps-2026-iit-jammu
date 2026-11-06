@@ -2,8 +2,17 @@
 
 import { useState } from "react";
 import { daySchedules, paperSessions, posterSession } from "@/lib/techProgramData";
+import ComingSoon from "@/components/ComingSoon";
 
+// TEMPORARY: showing "To be announced" on this page for now. The real
+// technical-program page below (TechProgramPageOriginal) is kept fully
+// intact — nothing was deleted. To restore it, change the exported
+// `TechProgramPage` function below back to `return <TechProgramPageOriginal />;`.
 export default function TechProgramPage() {
+  return <ComingSoon title="Technical Program" />;
+}
+
+function TechProgramPageOriginal() {
   const [openDay, setOpenDay] = useState<number | null>(0);
   const [openSession, setOpenSession] = useState<number | null>(null);
   const [posterOpen, setPosterOpen] = useState(false);

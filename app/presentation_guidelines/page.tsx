@@ -2,6 +2,16 @@
 
 import { useState } from "react";
 import type { ReactNode } from "react";
+import ComingSoon from "@/components/ComingSoon";
+
+// TEMPORARY: showing "To be announced" on this page for now. The real
+// presentation-guidelines page below (PresentationGuidelinesPageOriginal) is
+// kept fully intact — nothing was deleted. To restore it, change the
+// exported `PresentationGuidelinesPage` function below back to
+// `return <PresentationGuidelinesPageOriginal />;`.
+export default function PresentationGuidelinesPage() {
+  return <ComingSoon title="Presentation Guidelines" />;
+}
 
 // NOTE: text copied as-is from ICPS 2025 for reference — update dates,
 // durations, and file-size limits as needed for ICPS 2027 / IIT Jammu.
@@ -136,7 +146,7 @@ const additionalNotes = [
   "It is recommended to test your slides during the break before your session.",
 ];
 
-export default function PresentationGuidelinesPage() {
+function PresentationGuidelinesPageOriginal() {
   const [openStep, setOpenStep] = useState<number | null>(0);
 
   return (

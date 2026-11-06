@@ -1,4 +1,4 @@
-import { conference, aboutParagraphs } from "@/lib/siteData";
+import { conference, aboutParagraphs, aboutHighlight } from "@/lib/siteData";
 
 export default function About() {
   return (
@@ -10,6 +10,7 @@ export default function About() {
         {aboutParagraphs.map((para, i) => (
           <p key={i}>{para}</p>
         ))}
+        <p className="font-bold">{aboutHighlight}</p>
       </div>
     </section>
   );

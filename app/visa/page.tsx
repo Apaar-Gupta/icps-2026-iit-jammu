@@ -91,7 +91,7 @@ export default function VisaSupportPage() {
               </p>
 
               <p className="text-lg font-semibold text-[#003f87] break-all">
-                icps-2027@iitjammu.ac.in
+                To be Updated soon 
               </p>
             </div>
 

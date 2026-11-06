@@ -9,6 +9,15 @@ import {
   industrialPanel,
   type Speaker,
 } from "@/lib/programData";
+import ComingSoon from "@/components/ComingSoon";
+
+// TEMPORARY: showing "To be announced" on this page for now. The real
+// keynote speakers / program page below (ProgramPageOriginal) is kept
+// fully intact — nothing was deleted. To restore it, change the exported
+// `ProgramPage` function below back to `return <ProgramPageOriginal />;`.
+export default function ProgramPage() {
+  return <ComingSoon title="Keynote Speakers and Tutorials" />;
+}
 
 function initials(name: string) {
   const cleaned = name.replace(/^(Shri\.?|Smt\.?|Dr\.?|Prof\.?|Mr\.?)\s+/i, "");
@@ -83,7 +92,7 @@ function PanelistRow({ name, title }: { name: string; title: string }) {
   );
 }
 
-export default function ProgramPage() {
+function ProgramPageOriginal() {
   const [showKeynotes, setShowKeynotes] = useState(true);
   const [showTutorials, setShowTutorials] = useState(false);
   const [showSpecial, setShowSpecial] = useState(false);

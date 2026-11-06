@@ -3,6 +3,15 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
 import Image from "next/image";
+import ComingSoon from "@/components/ComingSoon";
+
+// TEMPORARY: showing "To be announced" on this page for now. The real
+// camera-ready page below (CameraReadyPageOriginal) is kept fully intact —
+// nothing was deleted. To restore it, change the exported `CameraReadyPage`
+// function below back to `return <CameraReadyPageOriginal />;`.
+export default function CameraReadyPage() {
+  return <ComingSoon title="Camera Ready Papers" />;
+}
 
 // NOTE: Metadata export doesn't work in a "use client" file — if you want
 // the page <title>/description set via Next's metadata API, move that
@@ -325,7 +334,7 @@ const steps: Step[] = [
   },
 ];
 
-export default function CameraReadyPage() {
+function CameraReadyPageOriginal() {
   const [openStep, setOpenStep] = useState<number | null>(0);
 
   return (

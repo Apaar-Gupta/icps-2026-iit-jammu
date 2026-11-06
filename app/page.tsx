@@ -1,5 +1,6 @@
 import TopStrip from "@/components/TopStrip";
 import Hero from "@/components/Hero";
+import PartnerLogos from "@/components/PartnerLogos";
 import About from "@/components/About";
 import Sponsors from "@/components/Sponsors";
 import ImportantDates from "@/components/ImportantDates";
@@ -13,6 +14,7 @@ export default function Home() {
     <main>
       <TopStrip/>
       <Hero />
+      <PartnerLogos />
       <About />
       <Sponsors />
       <ImportantDates />

@@ -76,13 +76,19 @@ export const aboutParagraphs = [
   `On behalf of the Steering Committee and the Organizing Committee, we cordially invite you to join us at IIT Jammu for ICPS 2027. With a mix of technical sessions, interactive panel discussions, and tutorials by leading experts, this conference will provide valuable opportunities for networking, learning, and collaboration.`,
 ];
 
+// Shown in bold directly below the About paragraphs above.
+export const aboutHighlight =
+  "All accepted, registered and presented papers will be submitted to IEEE Xplore for possible publication subject to fulfilling the IEEE eligibility criteria.";
+
 export type Sponsor = { name: string; logo: string; url?: string };
 
 export const sponsorTiers: { tier: string; sponsors: Sponsor[] }[] = [
   {
     tier: "Platinum Sponsors",
     sponsors: [
-      // { name: "Sponsor Name", logo: "/images/sponsor.png", url: "https://..." },
+      // Replace the logo paths below with the real files once supplied.
+      { name: "Grid-India", logo: "/images/grid-india.png" },
+      { name: "PowerGrid", logo: "/images/powergrid.jpeg" },
     ],
   },
   {
@@ -127,11 +133,12 @@ export const updates: Update[] = [
 ];
 
 export const organizers: Sponsor[] = [
-  // { name: "IIT Jammu", logo: "/images/IITJammuLogo.png", url: "https://iitjammu.ac.in" },
+   { name: "IIT Jammu", logo: "/images/iit-jammu.png", url: "https://iitjammu.ac.in" },
 ];
 
 export const technicalCoSponsors: Sponsor[] = [
-  // { name: "IEEE", logo: "/images/IEEELogo.png" },
+  // Replace the logo path below with the real file once supplied.
+  { name: "IEEE UP Section", logo: "/images/ieee-up-section.png" },
 ];
 
 export const footer = {

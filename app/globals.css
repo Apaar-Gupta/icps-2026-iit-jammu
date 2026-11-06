@@ -16,6 +16,12 @@ body {
   @apply bg-saffron-400 text-white;
 }
 
+/* body copy reads better justified, matching the ICPS 2025 reference site */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /* Playfair Display defaults to old-style figures, where digits like 6/8
    have taller ascenders than 0/2/3 — makes years like "2026" look uneven.
    Force lining (uniform-height) numerals wherever the display font is used. */
